@@ -1,0 +1,172 @@
+/*---News start----*/
+#wrapper{
+	width: 60%;
+	right: -2px;
+	min-height: 300px;	
+	margin: 0px auto;	
+	width: 212px;
+	position: relative;
+	top: 10px;
+	height: 370px;
+}
+#wrapper h1{
+	font-size: 35px;
+	color: rgb(6, 106, 117);
+	padding: 2px 0 1px 0;
+	font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 30px;
+}
+/** For the moment only webkit supports the background-clip:text; */
+
+#wrapper h1:after{
+	content: ' ';
+	display: block;
+	width: 100%;
+	height: 2px;
+	margin-top: 10px;
+	background: -moz-linear-gradient(left, rgba(221,221,221,0) 0%, rgba(221,221,221,0.8) 20%, rgba(221,221,221,1) 53%, rgba(221,221,221,0.8) 79%, rgba(221,221,221,0) 100%); 
+	
+}
+
+#register, 
+#login{
+	position: relative;
+	top: 1px;
+	width: 75%;	
+	padding: 2px 6% 60px 6%;
+	margin: 0 0 15px 0;
+	background: rgb(247, 247, 247);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 5px;
+		 border-radius: 5px;
+    left: 9px;
+    height: 364px;
+}
+/*---News end----*/
+
+/*---notice start----*/
+
+#wrapper1{
+	width: 60%;
+	right: -6px;
+	min-height: 300px;	
+	margin: 0px auto;	
+	width: 202px;
+	position: relative;
+	top: 0px;
+	height: 246px;
+}
+#wrapper1 h1{
+	font-size: 35px;
+	color: rgb(6, 106, 117);
+	padding: 2px 0 1px 0;
+	font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 30px;
+}
+/** For the moment only webkit supports the background-clip:text; */
+
+#wrapper1 h1:after{
+	content: ' ';
+	display: block;
+	width: 100%;
+	height: 2px;
+	margin-top: 10px;
+	background: -moz-linear-gradient(left, rgba(221,221,221,0) 0%, rgba(221,221,221,0.8) 20%, rgba(221,221,221,1) 53%, rgba(221,221,221,0.8) 79%, rgba(221,221,221,0) 100%); 
+	
+}
+
+#register1, 
+#login1{
+	position: relative;
+	top: 1px;
+	width: 86%;	
+	padding: 2px 6% 60px 6%;
+	margin: 0 0 15px 0;
+	background: rgb(247, 247, 247);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 5px;
+		 border-radius: 5px;
+    left: 10px;
+    height: 197px;
+}
+
+#register2, 
+#login2{
+	position: relative;
+	top: 1px;
+	width: 79%;	
+	padding: 2px 6% 60px 6%;
+	margin: 0 0 15px 0;
+	background: rgb(247, 247, 247);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 5px;
+		 border-radius: 5px;
+    left: -10px;
+    height: 217px;
+}
+
+/*---notice end----*/
+
+/*---TP start----*/
+
+#wrapper2{
+	width: 60%;
+	right: -3px;
+	min-height: 300px;	
+	margin: 0px auto;	
+	width: 223px;
+	position: relative;
+	top: 0px;
+	height: 271px;
+}
+#wrapper2 h1{
+	font-size: 35px;
+	color: rgb(6, 106, 117);
+	padding: 2px 0 1px 0;
+	font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 30px;
+}
+/** For the moment only webkit supports the background-clip:text; */
+
+#wrapper2 h1:after{
+	content: ' ';
+	display: block;
+	width: 100%;
+	height: 2px;
+	margin-top: 10px;
+	background: -moz-linear-gradient(left, rgba(221,221,221,0) 0%, rgba(221,221,221,0.8) 20%, rgba(221,221,221,1) 53%, rgba(221,221,221,0.8) 79%, rgba(221,221,221,0) 100%); 
+	
+}
+/*---tp end----*/
+
+.HomepageDiv{
+	position: relative;
+	top: 1px;
+	width: 75%;	
+	padding: 2px 6% 60px 6%;
+	margin: 0 0 15px 0;
+	background: rgb(247, 247, 247);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 5px;
+		 border-radius: 5px;
+    left: -10px;
+    height: 80%;
+}

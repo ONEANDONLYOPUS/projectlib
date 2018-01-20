@@ -1,0 +1,390 @@
+﻿.body
+{
+	background-color: #F0F7EF;  /*background-color:#FFF;#F9F9F9;*/
+}
+
+#master_head
+{
+	/*height: 34px;*/
+	background-image: url( '../images/bg_head2.jpg' );
+	vertical-align: top;
+	text-align: center;
+}
+
+#master_container
+{
+	position: relative;
+	width: 100%;
+}
+
+/*#master_footer
+{
+	height: 25px;
+	background-image: url( '../images/bg_head.jpg' );
+	vertical-align: middle;
+	text-align: center;
+	margin-left:0px;
+	width:100%;
+}*/
+
+.master_left
+{
+	background: url(../images/link_head.png) repeat-x left top;
+	height:54px;
+	text-align:left;
+	width: 200px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color:#FFFFFF;
+	overflow:auto;
+	/*scrollbar-arrow-color:blue;
+	scrollbar-face-color: #e7e7e7; 
+	scrollbar-3dlight-color: #a0a0a0; 
+	scrollbar-darkshadow-color:#888888;*/
+}
+
+#page_content {
+	margin-left: 200px;
+}
+
+
+.listview-container
+{
+	overflow: auto;
+	height:450px;
+	width:100;
+}
+
+
+.listview-container-store
+{
+	overflow: auto;
+	height:100px;
+	width:100;
+}
+
+
+.listview-container-store1
+{
+	overflow: auto;
+	height:300px;
+	width:100;
+}
+
+.vista-grid
+{
+	background:#fff;
+ 	border:solid 2px #A7BAC5;        	
+	font-family:verdana;
+	font-size:11px;
+	width:100%;
+}
+
+.vista-grid .titlebar
+ {
+ 	/*background:#8988a5 url(../images/title-bg.png);*/
+
+background: rgba(193,158,103,1);
+background: -moz-linear-gradient(top, rgba(193,158,103,1) 0%, rgba(201,160,99,1) 63%, rgba(219,214,204,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(193,158,103,1)), color-stop(63%, rgba(201,160,99,1)), color-stop(100%, rgba(219,214,204,1)));
+background: -webkit-linear-gradient(top, rgba(193,158,103,1) 0%, rgba(201,160,99,1) 63%, rgba(219,214,204,1) 100%);
+background: -o-linear-gradient(top, rgba(193,158,103,1) 0%, rgba(201,160,99,1) 63%, rgba(219,214,204,1) 100%);
+background: -ms-linear-gradient(top, rgba(193,158,103,1) 0%, rgba(201,160,99,1) 63%, rgba(219,214,204,1) 100%);
+background: linear-gradient(to bottom, rgba(193,158,103,1) 0%, rgba(201,160,99,1) 63%, rgba(219,214,204,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c19e67', endColorstr='#dbd6cc', GradientType=0 );
+
+
+ 	height:28px;
+ 	line-height:28px;
+ 	padding:0px 5px;
+	color:#fff;
+	font-family:Verdana;	
+	font-size:13px;
+	font-weight:600;
+	text-align:left;
+ }
+
+ .vista-grid .datatable { width:100%;
+	margin-top: 0px;
+}
+ 
+ /* grid headers */
+ .vista-grid .datatable .header TH
+ {
+ 	background:#e9e9eb url(../images/header-bg.png);
+ 	border-bottom:solid 1px #A7BAC5;
+ 	height:22px;
+ 	line-height:22px;
+ 	padding-left:6px;
+ 	color:#666666;
+ 	text-align:left;
+ }
+  
+ /* data items */                                       
+ .vista-grid .datatable .item TD,
+ .vista-grid .datatable .altitem TD
+ {
+ 	padding:3px 0px 3px 6px;
+ 	border-bottom:solid 1px #eae9e1; 
+ 	color:#222222;
+ 	text-align:left;
+ 	background-color:#FFFFFF;
+ }  
+ .vista-grid .datatable .altitem TD {background-color:#FFFFD2;}          /*FDFDF8*/
+  
+/* Data Pager Styles */
+.vista-grid_datapager 
+{ 
+	width:80%;
+    height:19px;
+    vertical-align:middle;
+    text-align:center;
+    font-family:Verdana;
+    font-size:10pt;
+}  
+
+.vista-grid_datapager SPAN.command,        
+.vista-grid_datapager SPAN.current,        
+.vista-grid_datapager A.command
+{
+    color:#5a90ce;
+    padding:0px 5px;
+    text-decoration:none;
+    border:none;
+}
+.vista-grid_datapager A.command:hover
+{
+    border:solid 2px #408BB6;
+    background-color:#59A5D1;
+    color:#fff;
+    padding:0px 3px;
+    text-decoration:none;
+}        
+.vista-grid_datapager SPAN.current
+{
+	border:none;
+    font-weight:bold;
+    color:#3e3e3e;
+    padding:0px 6px;
+    font-size:10pt;
+}
+/************************************************************/
+
+
+    
+.hidden
+{
+	display:none;
+	visibility:hidden;
+}
+ 
+/* Title of the page */
+.vista_page_title_bar
+{
+	/*background-image: url('../images/page_title_bar.jpg'); 
+	background-repeat: no-repeat; */
+	background-color: #cfb489;	/*#D6D6D6 #D1DCE0 #C5AC8D #B7C77A*/
+	vertical-align: middle; 
+	text-align: left; 
+	line-height: 30px; 
+	letter-spacing: 1px;
+	font-weight:600;
+	font-size:10pt;
+	padding-left:25px;
+	height:30px;
+}
+
+.grid_bg
+{
+	background-color:#DEEBF9;
+}
+
+/* collasable section headers on student info entry form */
+.section_header
+{
+	cursor: pointer;
+	vertical-align: middle;
+	width:100%; 	
+ 	/*background-color:#F7B54A; */
+ 	background: url(images/ui-bg_gloss-wave_45_e14f1c_500x100.png) 50% 50% repeat-x;
+ 	color :#000000;	
+	font-size:10pt;
+	font-weight:bold;
+	text-align:left;
+ }
+
+
+/*service book style sheet*/
+
+.vista-gridServiceBook	
+{
+	background:#fff;
+ 	border:solid 2px #A7BAC5;        	
+	font-family:verdana;
+	font-size:11px;
+	width:99%;
+}
+
+.vista-gridServiceBook .titlebar-ServiceBook
+ {
+ 	background:#8988a5 url(../images/title-bg.png);
+ 	height:28px;
+ 	line-height:28px;
+ 	padding:0px 5px;
+	color:#fff;
+	font-family:Verdana;	
+	font-size:9px;
+	font-weight:600;
+	text-align:left;
+ }
+ 
+ .vista-gridServiceBook .datatable-ServiceBook { width:100%; } 
+ 
+ 
+  /* grid headers */
+ .vista-gridServiceBook .datatable-ServiceBook .header-ServiceBook TH
+ {
+ 	background:#e9e9eb url(../images/header-bg.png);
+ 	border-bottom:solid 1px #A7BAC5;
+ 	height:22px;
+ 	line-height:22px;
+ 	padding-left:6px;
+ 	color:#666666;	
+ 	text-align:left;
+ 	font-size:11px;
+	font-weight:600;
+	text-align:left;
+ 	
+ }
+ 
+ 
+ /* grid headers */
+ .vista-gridServiceBook .datatable-ServiceBook .header-ServiceBook TD
+ {
+ 	background:#e9e9eb url(../images/header-bg.png);
+ 	border-bottom:solid 1px #A7BAC5;
+ 	height:22px;
+ 	line-height:22px;
+ 	padding-left:6px;
+ 	color:#666666; 	
+ 	font-size:10px;	
+	text-align:left;
+ }
+  
+ 
+ 
+ /* data items */                                       
+ .vista-gridServiceBook .datatable-ServiceBook .item-ServiceBook TD,
+ .vista-gridServiceBook .datatable-ServiceBook .altitem-ServiceBook TD
+ {
+ 	padding:3px 0px 3px 6px;
+ 	border-bottom:solid 1px #eae9e1; 
+ 	color:#222222;
+ 	font-size:9px;	
+	text-align:left;
+ } 
+ .vista-gridServiceBook .datatable-ServiceBook .altitem-ServiceBook TD {background-color:#FFFFD2;}          /*FDFDF8*/
+  
+/* Data Pager Styles */
+.vista-gridServiceBook_datapager 
+{ 
+	width:80%;
+    height:19px;
+    vertical-align:middle;
+    text-align:center;
+    font-family:Verdana;
+    font-size:10pt;
+}  
+
+
+
+/*STORE DEPT USER*/
+.strdeptuser
+{	
+
+   font-family:verdana;
+	font-size:11px;
+	color:White;
+	background-color:White;
+
+}
+
+
+/*BEGIN : CSS to Buttons*/
+.buttonStyle
+{
+	/*background-color: #E9E9E9; 
+	background-image: none; */
+	background-position: left top;
+	border-style: solid;
+	border-width: thin;
+	border-color: #CCCCCC;
+	background:#e9e9eb url(../images/btnBack.jpg) repeat-x left top;
+	height:20px;
+}
+.buttonStyle:hover
+{
+	/*background-color: #E9E9E9; 
+	background-image: none; */
+	background-position: left top;
+	border-style: solid;
+	border-width: thin;
+	border-color: #939393;
+	background:#e9e9eb url(../images/btnBack.jpg) repeat-x left top;
+	height:20px;
+	/*font-weight:bold;*/
+}
+.buttonStyle:active 
+{
+	/*background-color: #E9E9E9; 
+	background-image: none; */
+	background-position: left top;
+	border-style: solid;
+	border-width: thin;
+	border-color: #000000;
+	background:#e9e9eb url(../images/btnBack_active.jpg) repeat-x left top;
+	height:20px;
+	/*font-weight:normal;*/
+}
+
+
+/* new csssssssssss to buttons*/
+.btn-primary {
+    background: -moz-linear-gradient(center top , #73AEC9 0pt, #73AEC9 1px, #338AB0 1px, #0571A6 100%) repeat scroll 0 0 transparent;
+    border-color: #045A8B;
+    color: #FFFFFF !important;
+}
+.btn-primary:hover{
+    background: -moz-linear-gradient(center top , #69A0B6 0pt, #69A0B6 1px, #277696 1px, #04608E 100%) repeat scroll 0 0 transparent;
+    border-color: #004A73;
+}
+
+.btn-primary:active{
+    background: -moz-linear-gradient(center top , #025F8D 0pt, #267696 100%) repeat scroll 0 0 transparent;
+    border-color: #004A73;
+}
+
+.btn-primary[disabled], .btn-primary.disabled {
+    background: -moz-linear-gradient(center top , #B9D6E4 0pt, #B9D6E4 1px, #99C4D7 1px, #82B8D2 100%) repeat scroll 0 0 transparent;
+    border-color: #81ACC5;
+    color: #DDEBF2 !important;
+}
+/*END : CSS to Buttons*/
+
+
+
+/***********************/
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 4px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    border-bottom-left-radius: 4px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 4px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 4px;
+}
+/****************************/
